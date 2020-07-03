@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{%block content%}
+
+<a href="{% url 'start-quiz' 1 %}">Click here to start reviewing</a><br>
+<a href="{% url 'update-question'%}">Update Quesiton</a><br>
+<a href="{% url 'update-choice'%}">Update Choice</a>
+
+{%endblock content%}
+{%block ul%}
+{%endblock ul%}
